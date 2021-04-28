@@ -1,0 +1,186 @@
+body
+{
+	margin: 0;
+}
+
+.container
+{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.fa-map-marker-alt
+{
+	border: 0.5px grey solid;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 9px;
+	background-color: #D4D4D4;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+img
+{
+	width: 100px;
+	margin-top: 20px;
+}
+
+header
+{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+}
+nav li
+{
+	
+	color: #0065FC;
+	margin-left: 60px;
+}
+
+input
+{
+	padding: 8px;
+}
+
+button
+{
+	color: white;
+	background-color: #0065FC;
+	border-bottom-right-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+	padding: 8px;
+}
+
+nav a, section a 
+{
+	text-decoration: none;
+}
+nav a:hover
+{
+	padding-top: 30px;
+	border-top: 1px solid #0065FC;
+}
+
+section h2
+{
+	font-size: 15px;
+}
+
+section ul
+{
+	list-style-type: none;
+	display: flex;
+	padding-left: 5px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+section li a
+{
+	margin-left: 60px;
+}
+section a
+{
+	border: 2px grey solid;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 40px;
+}
+
+.fa-money-bill-wave
+{
+	color: #0065FC;
+	padding-left: 11px;
+	padding-top: 12px;
+	padding-right: 11px;
+	padding-bottom: 12px;
+	border: 1px white solid;
+	border-radius: 50%;
+	background-color: #deebff;
+}
+.fa-child
+{
+	color: #0065FC;
+	padding-left: 15px;
+	padding-top: 12px;
+	padding-right: 15px;
+	padding-bottom: 12px;
+	border: 1px white solid;
+	background-color: #deebff;
+	border-radius: 50%;
+}
+
+.fa-heart
+{
+	color: #0065FC;
+	padding: 13px;
+	border: 1px white solid;
+	border-radius: 50%;
+	background-color: #deebff;
+}
+
+.fa-dog
+{
+	color: #0065FC;
+	padding-left: 11px;
+	padding-top: 12px;
+	padding-right: 11px;
+	padding-bottom: 12px;
+	border: 1px white solid;
+	border-radius: 50%;
+	background-color: #deebff;
+}
+
+#icon_billet
+{
+	margin-top: -46px;
+	margin-left: 100px;
+}
+
+#icon_child
+{
+	margin-top: -42px;
+	margin-left: 300px;
+}
+
+#icon_heart
+{
+	margin-top: -43px;
+	margin-left: 475px;
+}
+
+#icon_dog
+{
+	margin-top: -43px;
+	margin-left: 670px;
+}
+#icon_info
+{
+	background-color: #deebff;
+	color: #0065fc;
+	margin-left: 5px;
+	margin-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: absolute;
+	border: 1px grey solid;
+	border-radius: 20px;
+}
+.info_para
+{
+	margin-left: 40px;
+	margin-top: 37px;
+}
