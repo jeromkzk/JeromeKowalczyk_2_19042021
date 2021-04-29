@@ -10,7 +10,6 @@
 	
 	}
 
-
 body
 {
 	margin: 0;
@@ -19,14 +18,14 @@ body
 
 .container
 {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 50px;
 	padding-right: 50px;
 }
 
-img
+header img
 {
 	width: 100px;
 	margin-top: 20px;
@@ -42,38 +41,53 @@ nav ul
 {
 	list-style-type: none;
 	display: flex;
+	margin-top: -10px;
 }
 nav li
 {
-	
-	color: #0065FC;
-	margin-left: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
 }
 
+nav li:hover
+{
+	border-top: 2px #0065FC solid;
+}
+.paragraphe1
+{
+	margin-top: -10px;
+}
 input
 {
 	padding: 8px;
+	margin-left: -1px;
 }
 .fa-map-marker-alt
 {
 	margin-top: 2px;
-	border: 0.5px grey solid;
+	border: 0.5px #F2F2F2 solid;
 	padding-top: 6px;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-bottom: 9px;
-	background-color: #D4D4D4;
+	background-color: #F2F2F2;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
 
 button
 {
+	font-family: 'ralewayregular';
+	font-weight: bold;
 	color: white;
 	background-color: #0065FC;
 	border-bottom-right-radius: 10px 10px;
 	border-top-right-radius: 10px 10px;
-	padding: 8px;
+	padding: 10px;
+	margin-top: 2px;
+	margin-left: -2.5px;
+	border: none;
 }
 #search_zone
 {
@@ -85,17 +99,13 @@ button
 nav a, section a 
 {
 	text-decoration: none;
-}
-nav a:hover
+}	
+a
 {
-	padding-top: 30px;
-	border-top: 2px solid #0065FC;
-
+	color: inherit;
 }
-
-section h2
-{
-	font-size: 15px;
+a:hover{
+	color: #0065FC;
 }
 
 section ul
@@ -112,7 +122,7 @@ section li a
 }
 section a
 {
-	border: 2px grey solid;
+	border: 2px #c5c5c5 solid;
 	border-radius: 20px;
 	padding-top: 9px;
 	padding-bottom: 9px;
@@ -155,37 +165,41 @@ section a
 .fa-dog
 {
 	color: #0065FC;
-	padding-left: 11px;
-	padding-top: 12px;
-	padding-right: 11px;
-	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-top: 13px;
+	padding-right: 12px;
+	padding-bottom: 13px;
 	border: 1px white solid;
 	border-radius: 50%;
 	background-color: #deebff;
 }
 
-#icon_billet
+#icon_filtres
+{
+	display: flex;
+}
+.icon_billet
 {
 	margin-top: -46px;
 	margin-left: 109px;
 }
 
-#icon_child
+.icon_child
 {
-	margin-top: -42px;
-	margin-left: 325px;
+	margin-top: -46px;
+	margin-left: 175px;
 }
 
-#icon_heart
+.icon_heart
 {
-	margin-top: -43px;
-	margin-left: 500px;
+	margin-top: -47px;
+	margin-left: 135px;
 }
 
-#icon_dog
+.icon_dog
 {
-	margin-top: -43px;
-	margin-left: 715px;
+	margin-top: -47px;
+	margin-left: 172px;
 }
 #icon_info
 {
@@ -193,8 +207,8 @@ section a
 	color: #0065fc;
 	margin-left: 5px;
 	margin-top: 30px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 11px;
+	padding-right: 11px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	position: absolute;
@@ -205,4 +219,52 @@ section a
 {
 	margin-left: 40px;
 	margin-top: 37px;
+}
+
+.container_middle
+{
+	background-color: #8f8f8f;
+	max-width: 1400px;
+	margin-left: 50px;
+	width: 875px;
+	height: 600px;
+	border-radius: 30px;
+	margin-top: 40px;
+}
+
+.asideleft h3
+{
+	padding-top: 30px;
+	padding-left: 40px;
+}
+
+#bloc_blanc
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.bloc1, .bloc2, .bloc3, .bloc4, .bloc5, .bloc6
+{
+	width: 220px;
+	height: 180px;
+	background-color: white;
+	border-radius: 20px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	padding-left: 20px;
+}
+
+
+
+.chambre1 img
+{
+	width: 200px;
+	position: relative;
+	margin-top: -5000px;
+}
+
+.Signup
+{
+	color: #0065FC;
+	font-weight: bold;
 }
