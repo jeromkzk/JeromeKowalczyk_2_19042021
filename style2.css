@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('fonts/raleway-regular-webfont.woff') format('woff'),
+         url('fonts/Raleway-VariableFont_wght.ttf') format('ttf'),
+         url('fonts/Raleway-Italic-VariableFont_wght.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	margin: 0;
+	font-family: 'ralewayregular';
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+.headerNavLink{
+    margin-right: 50px;
+}
+.headerImg{
+    width: 100px;
+}
+.headerNavLink::before{
+    
+}
+.headerNavLink{
+    text-decoration: none;
+    color: inherit;
+}
+.headerNavLink[data-active=true]{
+    color: #0065FC;
+}
+.headerNavLink:hover{
+    color: #0065FC;
+    border-top: 2px #0065FC solid;
+    padding-top: 30px;
+}
+.headerSignup{
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+}
