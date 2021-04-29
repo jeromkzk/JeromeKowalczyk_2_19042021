@@ -14,15 +14,16 @@ body{
 	font-family: 'ralewayregular';
 }
 
-
+                            /*HEADER*/
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     margin-top: 20px;
+    max-width: 1440px;
 }
 .headerNavLink{
     margin-right: 50px;
@@ -50,3 +51,32 @@ body{
     color: #0065FC;
     font-weight: bold;
 }
+
+                            /*MAIN*/ /*SEARCH*/
+                                /*SEARCH*/
+.main{
+    max-width: 1440px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchHeaderTitle{
+    margin-bottom: 0.5rem;
+}
+.searchHeaderSubtitle{
+    margin-top: 0;
+}
+.searchForm{
+    display: inline-flex;
+    max-width: 100%;
+    overflow: auto;
+}
+.searchFormWrapIcon{
+    background-color: #F2F2F2;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem 0 0 1rem;
+    text-align: center;
+}
+
+
+
