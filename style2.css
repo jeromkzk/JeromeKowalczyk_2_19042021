@@ -31,9 +31,6 @@ body{
 .headerImg{
     width: 100px;
 }
-.headerNavLink::before{
-    
-}
 .headerNavLink{
     text-decoration: none;
     color: inherit;
@@ -60,7 +57,7 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-#searchForm{
+#searchDiv{
     margin: 0;
 }
 .searchHeaderTitle{
@@ -69,7 +66,7 @@ body{
 .searchHeaderSubtitle{
     margin-top: 0;
 }
-#searchForm .fas{
+#searchDiv .fas{
     padding-top: 17px;
     padding-bottom: 18px;
     padding-left: 20px;
@@ -77,7 +74,7 @@ body{
     background-color: #F2F2F2;
     border-radius: 1rem 0 0 1rem;
 }
-.searchInput{
+.zoneSaisie{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 10px;
@@ -108,7 +105,7 @@ body{
 
                         /*FILTRES*/
 
-.searchFiltersGroup{
+.groupeFiltres{
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
@@ -116,6 +113,8 @@ body{
 .searchFilterTitle{
     margin:  0 2rem 1rem 0;
     display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
 }
 .searchFilter{
     display: flex;
@@ -149,10 +148,7 @@ body{
 .IconFilters{
     color: #0065FC;
 }
-.searchFilterTitle{
-    margin-top: 15px;
-    margin-left: 10px;
-}
+
 
 .searchResult{
     display: flex;
@@ -179,16 +175,44 @@ body{
 }
 
                     /*SECTION MIDDLE*/
-.hostingMain{
-    display: flex;
+.headerConteneur{
+    padding: 1rem;
 }
-.hostingMainCardFigureImg{
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boxBlanche{
+    background-color: white;
+    padding: 0.375rem;
+    height: 100%;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    max-width: 250px;
+    max-height: 200px;
+    
+    align-items: center;
+    
+}
+.conteneur{
+    background-color: #666666;
+    border-radius: 2em;
+    max-width: 800px;
+    height: 580px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.title{
+    padding-bottom: 0;
+}
+.figureConteneur{
+    margin: 0;
+}
+.imgBoxBlanche{
     height: 7rem;
-    max-width: 100%;
-    object-fit: cover;
     width: 100%;
-    max-height: 100%;
+    object-fit: cover;
     border-radius: 1rem 1rem 0 0;
 }
-
 
