@@ -151,9 +151,32 @@ body{
 }
 .searchFilterTitle{
     margin-top: 15px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
+.searchResult{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 2rem 0;
+}
+.searchResultIcon{
+    height: 2rem;
+    width: 2rem;
+    min-width: 2rem;
+    min-width: 2rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+.searchResultLogoIcon{
+    color: #0065FC;
+}
+.searchResultText{
+    margin: 0;
+}
 
 
 
