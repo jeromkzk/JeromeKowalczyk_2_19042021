@@ -178,5 +178,17 @@ body{
     margin: 0;
 }
 
+                    /*SECTION MIDDLE*/
+.hostingMain{
+    display: flex;
+}
+.hostingMainCardFigureImg{
+    height: 7rem;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
 
 
