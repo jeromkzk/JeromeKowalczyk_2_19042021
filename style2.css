@@ -8,6 +8,28 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('fonts/raleway-black-webfont.eot');
+    src: url('fonts/raleway-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-black-webfont.woff2') format('woff2'),
+         url('fonts/raleway-black-webfont.woff') format('woff'),
+         url('fonts/raleway-black-webfont.svg#ralewayblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway-bold-webfont.eot');
+    src: url('fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-bold-webfont.woff') format('woff'),
+         url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body{
 	margin: 0;
@@ -15,13 +37,16 @@ body{
 }
 
                             /*HEADER*/
+.container-page{
+    padding: 0 40px 0 40px;
+    max-width: 1440px;
+}
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
     margin-top: 20px;
     max-width: 1440px;
 }
@@ -34,27 +59,61 @@ body{
 .headerNavLink{
     text-decoration: none;
     color: inherit;
+    font-weight: bold;
 }
 .headerNavLink[data-active=true]{
-    color: #0065FC;
+    position: relative;
+}
+.headerNavLink[data-active=true]::before{
+    content: "";
+    width: 150%;
+    height: 3px;
+    position: absolute;
+    background: #0065FC;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+.headerNavLink[data-active=true]:hover::before{
+    opacity: 1;
 }
 .headerNavLink:hover{
     color: #0065FC;
-    border-top: 2px #0065FC solid;
-    padding-top: 30px;
 }
+
+.headerNavLink[data-active=false]{
+    position: relative;
+}
+.headerNavLink[data-active=false]::before{
+    content: "";
+    width: 150%;
+    height: 3px;
+    position: absolute;
+    background: #0065FC;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+.headerNavLink[data-active=false]:hover::before{
+    opacity: 1;
+    color: #0065FC;
+}
+
 .headerSignup{
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
+    margin-right: 50px;
+}
+.headerNav{
+    display: flex;
 }
 
                             /*Zone de recherche */
-.main{
-    max-width: 1440px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.searchHeaderTitle{
+    font-family: 'ralewaybold';
 }
 #searchDiv{
     margin: 0;
@@ -64,6 +123,7 @@ body{
 }
 .searchHeaderSubtitle{
     margin-top: 0;
+    font-weight: bold;
 }
 #searchDiv .fas{
     padding-top: 17px;
@@ -77,7 +137,7 @@ body{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 10px;
-    padding-left: 2px;
+    padding-left: 15px;
     border-right: none;
     border-left: none;
     margin-left: -3px;
@@ -85,9 +145,9 @@ body{
     font-size: 1rem;
     border-top: 1px #F2F2F2 solid;
     border-bottom: 1px #F2F2F2 solid;
-    font-family: 'ralewayregular';
-    font-weight: bold;
+    font-family: 'ralewaybold';
 }
+
 .searchButton{
     padding-top: 16px;
     padding-bottom: 17px;
@@ -97,7 +157,6 @@ body{
     border-radius: 0 0.7rem 0.7rem 0;
     border: none;
     background: #0065FC;
-    font-weight: bold;
     color: white;
     font-size: 1rem;
 }
@@ -108,12 +167,17 @@ body{
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
+    font-family: 'ralewaybold';
 }
 .searchFilterTitle{
     margin:  0 2rem 1rem 0;
     display: flex;
     margin-top: 15px;
     margin-left: 10px;
+}
+.groupeFiltres h2{
+    font-size: 18px;
+    padding-top: 1px;
 }
 .searchFilter{
     display: flex;
@@ -153,6 +217,7 @@ body{
     display: flex;
     align-items: center;
     margin: 1rem 0 2rem 0;
+    font-weight: bold;
 }
 .searchResultIcon{
     height: 2rem;
@@ -171,6 +236,7 @@ body{
 }
 .searchResultText{
     margin: 0;
+    font-weight: bold;
 }
 
                     /*SECTION MIDDLE*/
