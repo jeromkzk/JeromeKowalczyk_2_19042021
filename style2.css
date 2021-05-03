@@ -49,8 +49,7 @@ body{
     font-weight: bold;
 }
 
-                            /*MAIN*/ /*SEARCH*/
-                                /*SEARCH*/
+                            /*Zone de recherche */
 .main{
     max-width: 1440px;
     width: 80%;
@@ -130,7 +129,7 @@ body{
     margin-right: 0;
 }
 .searchFilter:hover{
-    background-color: #0065FC;
+    background-color: #5b8dd8;
     transform: scale(1.015);
 }
 .Filters{
