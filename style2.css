@@ -176,7 +176,7 @@ body{
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
-    font-family: 'ralewaysemibold';
+    font-family: 'ralewaybold';
 }
 .searchFilterTitle{
     margin:  0 2rem 1rem 0;
@@ -262,6 +262,7 @@ body{
                     /*LEFT-BOX*/
 .header-bloc-mid{
     padding: 10px 0 0 40px;
+    font-family: 'ralewaybold';
 }
 .left-box-grey{          
     background: #F2F2F2;
@@ -300,6 +301,7 @@ body{
 .name-first-img-left{
     font-weight: bold;
     padding: 5px 0 0 10px;
+    font-family: 'ralewaybold';
 }
 .price-left-img{
     margin: 0px;
@@ -323,6 +325,7 @@ body{
 
 .show-more{
     padding: 0 0 20px 10px;
+    font-family: 'ralewaybold';
 }
 
 
@@ -339,6 +342,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 10px 15px 0 15px;
+    font-family: 'ralewaybold';
 }
 .icon-popular{
     font-size: 25px;
@@ -374,6 +378,7 @@ body{
 .title-right-room{
    padding-right: 20px;
    padding-left: 20px;
+   font-family: 'ralewaybold';
 }
 .price-right-room{
     padding: 10px 0px 0 20px;
