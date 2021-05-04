@@ -30,6 +30,14 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body{
 	margin: 0;
@@ -106,6 +114,7 @@ body{
     color: #0065FC;
     font-weight: bold;
     margin-right: 50px;
+    font-family: 'ralewaysemibold';
 }
 .headerNav{
     display: flex;
@@ -113,7 +122,7 @@ body{
 
                             /*Zone de recherche */
 .searchHeaderTitle{
-    font-family: 'ralewaybold';
+    font-family: 'ralewaysemibold';
 }
 #searchDiv{
     margin: 0;
@@ -167,7 +176,7 @@ body{
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
-    font-family: 'ralewaybold';
+    font-family: 'ralewaysemibold';
 }
 .searchFilterTitle{
     margin:  0 2rem 1rem 0;
