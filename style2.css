@@ -1,60 +1,22 @@
-@font-face {
-    font-family: 'ralewayregular';
-    src: url('fonts/raleway-regular-webfont.woff2') format('woff2'),
-         url('fonts/raleway-regular-webfont.woff') format('woff'),
-         url('fonts/Raleway-VariableFont_wght.ttf') format('ttf'),
-         url('fonts/Raleway-Italic-VariableFont_wght.ttf') format('ttf');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: 'ralewayblack';
-    src: url('fonts/raleway-black-webfont.eot');
-    src: url('fonts/raleway-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/raleway-black-webfont.woff2') format('woff2'),
-         url('fonts/raleway-black-webfont.woff') format('woff'),
-         url('fonts/raleway-black-webfont.svg#ralewayblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'ralewaybold';
-    src: url('fonts/raleway-bold-webfont.eot');
-    src: url('fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/raleway-bold-webfont.woff2') format('woff2'),
-         url('fonts/raleway-bold-webfont.woff') format('woff'),
-         url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'ralewaysemibold';
-    src: url('fonts/raleway-semibold-webfont.woff2') format('woff2'),
-         url('fonts/raleway-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body{
 	margin: 0;
-	font-family: 'ralewayregular';
+	font-family: 'Raleway';
 }
 
                             /*HEADER*/
 .container-page{
     padding: 0 40px 0 40px;
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
+   
     margin-top: 20px;
     max-width: 1440px;
 }
@@ -78,7 +40,7 @@ body{
     height: 3px;
     position: absolute;
     background: #0065FC;
-    top: -30px;
+    top: -34px;
     left: 50%;
     transform: translate(-50%);
     opacity: 0;
@@ -99,7 +61,7 @@ body{
     height: 3px;
     position: absolute;
     background: #0065FC;
-    top: -30px;
+    top: -34px;
     left: 50%;
     transform: translate(-50%);
     opacity: 0;
@@ -114,7 +76,7 @@ body{
     color: #0065FC;
     font-weight: bold;
     margin-right: 50px;
-    font-family: 'ralewaysemibold';
+    font-family: 'Raleway';
 }
 .headerNav{
     display: flex;
@@ -122,7 +84,7 @@ body{
 
                             /*Zone de recherche */
 .searchHeaderTitle{
-    font-family: 'ralewaysemibold';
+    font-family: 'Raleway';
 }
 #searchDiv{
     margin: 0;
@@ -176,7 +138,7 @@ body{
     display: flex;
     margin-top: 2rem;
     flex-wrap: wrap;
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
 }
 .searchFilterTitle{
     margin:  0 2rem 1rem 0;
@@ -261,13 +223,14 @@ body{
 
                     /*LEFT-BOX*/
 .header-bloc-mid{
-    padding: 10px 0 0 40px;
-    font-family: 'ralewaybold';
+    
+    font-family: 'Raleway';
 }
 .left-box-grey{          
     background: #F2F2F2;
     border-radius: 20px;
-    max-width: 900px;
+    max-width: 60%;
+    padding: 20px 30px;
 }
 .frame-left{          
     background: white;
@@ -275,20 +238,17 @@ body{
     width: 260px;
     height: 190px;
     box-sizing: border-box;
-    margin-left: 5px;
-    margin-right: 25px;
     padding: 5px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
     margin-bottom: 40px;
-    box-shadow: 0 0 16px black;
-    
 }
 .frame-left:hover{
     transform: scale(1.015);
 }
 .all-img-left{
     display: flex;
-    padding-left: 30px;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .img-left-box{
     width: 100%;
@@ -301,11 +261,15 @@ body{
 .name-first-img-left{
     font-weight: bold;
     padding: 5px 0 0 10px;
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
 }
 .price-left-img{
     margin: 0px;
     padding: 5px 0px 0px 10px;
+    font-size: 14px;
+}
+strong{
+    font-family: 'Raleway';
 }
 .img-left-link, .show-more-room{
     text-decoration: none;
@@ -325,7 +289,7 @@ body{
 
 .show-more{
     padding: 0 0 20px 10px;
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
 }
 
 
@@ -334,15 +298,16 @@ body{
 .right-box{        
     background: #F2F2F2;
     border-radius: 20px;
-    width: 350px;
-    margin: 0 25px 0 40px;
+    max-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
     padding: 0 20px 0 20px;
 }
 .header-right-box{
     display: flex;
     justify-content: space-between;
     padding: 10px 15px 0 15px;
-    font-family: 'ralewaybold';
+    font-family: 'Raleway';
 }
 .icon-popular{
     font-size: 25px;
@@ -362,7 +327,7 @@ body{
     background: white;
     border-radius: 20px;
     margin: 10px 10px 25px 10px;
-    box-shadow: 0 0 16px black;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
 }
 .img-right-link{
     text-decoration: none;
@@ -378,10 +343,11 @@ body{
 .title-right-room{
    padding-right: 20px;
    padding-left: 20px;
-   font-family: 'ralewaybold';
+   font-family: 'Raleway';
 }
 .price-right-room{
     padding: 10px 0px 0 20px;
+    font-size: 14px;
 }
 .notation-img-right{
     margin: 40px 0 0 20px;
