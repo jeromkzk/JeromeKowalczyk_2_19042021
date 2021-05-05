@@ -29,7 +29,6 @@ body{
 .headerNavLink{
     text-decoration: none;
     color: inherit;
-    font-weight: bold;
 }
 .headerNavLink[data-active=true]{
     position: relative;
@@ -57,7 +56,7 @@ body{
 }
 .headerNavLink[data-active=false]::before{
     content: "";
-    width: 150%;
+    width: 180%;
     height: 3px;
     position: absolute;
     background: #0065FC;
@@ -77,9 +76,83 @@ body{
     font-weight: bold;
     margin-right: 50px;
     font-family: 'Raleway';
+    font-weight: bold;
 }
 .headerNav{
     display: flex;
+}
+                    /*MODE RESPONSIVE IPHONE 8*/
+@media (max-width: 600px){
+    .container-page{
+        padding: 0 10px 0 20px;
+    }
+    .headerImg{
+        width: 150px;
+    }
+    .header{
+        display: block;
+    }
+    .link-before{
+        display: flex;
+        padding: 20px;
+    }
+    .headerNavLink{
+        font-size: 25px;
+    }
+    .headerNavLink[data-active=true]{
+        margin: 0 10px 0 10px;
+    }
+    .headerNavLink[data-active=false]{
+        margin-left: 60px;
+    }
+    .headerSignup{
+        margin-left: -120px;
+        margin-top: -50px;
+        font-size: 25px;
+    }
+    .headerNavLink[data-active=true]::before{
+        display: none;
+    }
+    .headerNavLink[data-active=false]::before{
+        display: none;
+    }
+
+    .headerNavLink[data-active=true]{
+        position: relative;
+    }
+    .headerNavLink[data-active=true]::after{
+        content: "";
+        width: 160%;
+        height: 3px;
+        position: absolute;
+        bottom: -20px;
+        background: #f2f2f2;
+        left: 70%;
+        transform: translate(-70%);
+        opacity: 1;
+    }
+    .headerNavLink[data-active=true]:hover::after{
+        background: #0065FC;
+    }
+
+
+    .headerNavLink[data-active=false]{
+        position: relative;
+    }
+    .headerNavLink[data-active=false]::after{
+        content: "";
+        width: 220%;
+        height: 3px;
+        position: absolute;
+        bottom: -20px;
+        background: #F2F2F2;
+        left: 12%;
+        transform: translate(-25%);
+        opacity: 1;
+    }
+    .headerNavLink[data-active=false]:hover::after{
+        background: #0065FC;
+    }
 }
 
                             /*Zone de recherche */
@@ -95,7 +168,7 @@ body{
 .searchHeaderSubtitle{
     margin-top: 0;
 }
-#searchDiv .fas{
+#searchDiv .map-ping{
     padding-top: 17px;
     padding-bottom: 18px;
     padding-left: 20px;
@@ -131,6 +204,34 @@ body{
     color: white;
     font-size: 1rem;
 }
+.icon-search{
+    display: none;
+    opacity: 0;
+}
+                    /*MODE RESPONSIVE IPHONE 8*/
+@media (max-width: 600px){
+    #searchDiv{
+        display: flex;
+    }
+    .searchButton{
+        display: none;
+    }
+    .icon-search{
+        opacity: 1;
+        display: block;
+        color: white;
+        margin-left: -10px;
+        padding-top: 17px;
+        padding-bottom: 18px;
+        padding-left: 20px;
+        padding-right: 18px;
+        background-color: #F2F2F2;
+        border-radius: 1rem;
+        background-color: #0065fc;
+        width: 15px;
+    }
+}
+
 
                         /*FILTRES*/
 
