@@ -1,4 +1,4 @@
-esfsef
+
 
 body{
 	margin: 0;
@@ -20,7 +20,7 @@ body{
     margin-top: 20px;
     max-width: 1440px;
 }
-<<<<<<< HEAD
+
 .link-before{
     display: flex;
     width: 100%;
@@ -29,8 +29,7 @@ body{
     margin-top: 10px;
     display: flex;
 }
-=======
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
+
 .headerNavLink{
     margin-right: 50px;
 }
@@ -88,21 +87,21 @@ body{
     font-weight: bold;
     margin-right: 50px;
 }
-<<<<<<< HEAD
+
 
 
                             /*Zone de recherche */
 .container{
     padding: 0 40px 0 40px;
 }
-=======
+
 .headerNav{
     display: flex;
 }
 
                             /*Zone de recherche */
 
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
+
 #search-div{
     margin: 0;
 }
@@ -142,15 +141,15 @@ body{
     color: white;
     font-size: 1rem;
 }
-<<<<<<< HEAD
+
 @media screen and (min-width: 601px) {
     .fas.icon-search{
         display: none;
     }
 }
-=======
 
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
+
+
 
 
                         /*FILTRES*/
@@ -158,16 +157,15 @@ body{
 .groupeFiltres{
     display: flex;
     margin-top: 2rem;
-<<<<<<< HEAD
+
     font-weight: bold;
 }
 .search-filters{
     display: flex;
     flex-wrap: wrap;
-=======
     flex-wrap: wrap;
     font-weight: bold;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
+
 }
 .searchFilterTitle{
     margin:  0 2rem 1rem 0;
@@ -255,11 +253,9 @@ body{
 .left-box-grey{          
     background: #F2F2F2;
     border-radius: 20px;
-<<<<<<< HEAD
+
     max-width: 60%;
-=======
     max-width: 58%;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     padding: 20px 30px;
 }
 .frame-left{          
@@ -353,10 +349,9 @@ strong{
 
 .frame-right{
     display: flex;
-<<<<<<< HEAD
-=======
+
+
     background: white;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     border-radius: 20px;
     margin: 10px 10px 25px 10px;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
@@ -387,37 +382,29 @@ strong{
 .frame-right:hover{
     transform: scale(1.015);
 }
-<<<<<<< HEAD
-wcccwsccefs
+
 
                 /*ACTIVITY*/   
                 /*PHOTO1*/
-.activity{
-=======
-
-
-                /*ACTIVITY*/
-                /*PHOTO1*/
+                      
 .activity{
     background: grey;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     margin-top: 50px;
 }
 .img-activity{
     display: flex;
     justify-content: space-around;
-<<<<<<< HEAD
     gap: 3rem;
     margin-bottom: 20px;
 }
+
 .article-activity-1{
     width: 300px;
     min-width: 300px;
-=======
+
 }
 .article-activity-1{
     width: 300px;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
 }
@@ -440,22 +427,18 @@ wcccwsccefs
     color: inherit;
 }
                     /*PHOTO2*/
-<<<<<<< HEAD
+
 #group-activity-img-2-3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
 }
-.article-activity-2{
-    width: 300px;
-=======
 
 .article-activity-2{
     background: white;
     width: 300px;
     margin-bottom: 52px;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
 }
@@ -468,10 +451,7 @@ wcccwsccefs
 }
 .name-picture-2{
     padding: 15px 0 20px 20px;
-<<<<<<< HEAD
     font-weight: bold;
-=======
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
 }
 
 
@@ -482,32 +462,25 @@ wcccwsccefs
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
 }
 .img-activity-3{
-<<<<<<< HEAD
     height: 120px;
-=======
     height: 100px;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     width: 100%;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
     object-fit: cover;
 }
-<<<<<<< HEAD
+
 .name-picture-3{
     padding: 15px 0 20px 20px;
     font-weight: bold;
 }
-=======
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
+
 
 
 /*PHOTO 4*/
 .article-activity-4{
     width: 300px;
-<<<<<<< HEAD
     min-width: 300px;
-=======
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
 }
@@ -528,7 +501,7 @@ wcccwsccefs
 }
 
 /*PHOTO 5*/
-<<<<<<< HEAD
+
 #group-activity-img-5-6{
     display: flex;
     flex-direction: column;
@@ -556,7 +529,7 @@ wcccwsccefs
     width: 300px;
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
-=======
+}
 .article-activity-5{
     background: white;
     width: 300px;
@@ -571,12 +544,12 @@ wcccwsccefs
 .article-activity-6{
     background: white;
     width: 300px;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
+
 }
 .img-activity-6{
     height: 180px;
     width: 100%;
-<<<<<<< HEAD
+
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
     object-fit: cover;
@@ -587,10 +560,6 @@ wcccwsccefs
 }
 
 
-=======
-    object-fit: cover;
-}
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
 
 
 
@@ -603,31 +572,25 @@ wcccwsccefs
 
 
 
-
-
-<<<<<<< HEAD
-=======
                     /*UPPER 601PX*/
 @media screen and (min-width: 601px) {
     .fas.icon-search{
         display: noe;
     }
 }
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
+
 
 
 
                     /* RESPONSIVE UNDER 900PX */
 
 @media screen and (max-width: 900px){
-<<<<<<< HEAD
     .container{
         padding: 0 10px 0 10px;
-=======
+    }
     
     .searchHeader{
         padding: 0;
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     }
     .bloc-mid{
         display: block;
@@ -638,10 +601,7 @@ wcccwsccefs
         border-radius: 0;
         order: 2;
         background-color: white;
-<<<<<<< HEAD
         padding: 0 10px 0 10px;
-=======
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     }
     .frame-left{
         width: 100%;
@@ -650,10 +610,7 @@ wcccwsccefs
         border-radius: 0;
         max-width: none;
         order: 1;
-<<<<<<< HEAD
         margin-left: 0;
-=======
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     }
 }
     
@@ -733,25 +690,8 @@ wcccwsccefs
     .headerNavLink{
         margin: 0;
     }
-}
-    
-    
 
 
-
-   
-
-            
-    
-    
-
-
-
-
-
-    
-                /*BUTTON*/
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
     .button-title{
         display: none;
     }
@@ -763,14 +703,8 @@ wcccwsccefs
     .zone-saisie{
         width: 65%;
     }
-
-
-<<<<<<< HEAD
 }
     
     
 
 
-
-=======
->>>>>>> 99057819bc923e4d21f014e3431aedb74fc1159a
