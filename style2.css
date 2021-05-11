@@ -26,6 +26,7 @@ body{
 }
 .headerNav{
     margin-top: 10px;
+    display: flex;
 }
 .headerNavLink{
     margin-right: 50px;
@@ -358,7 +359,7 @@ strong{
     transform: scale(1.015);
 }
 
-qededss
+
                 /*ACTIVITY*/   
                 /*PHOTO1*/
 .activity{
@@ -368,6 +369,7 @@ qededss
     display: flex;
     justify-content: space-around;
     gap: 3rem;
+    margin-bottom: 20px;
 }
 .article-activity-1{
     width: 300px;
