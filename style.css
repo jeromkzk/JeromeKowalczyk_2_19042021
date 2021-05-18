@@ -8,7 +8,7 @@ body{
                             /*HEADER*/
 .container{
     padding: 0 40px 0 40px;
-    max-width: 1440px;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -221,13 +221,17 @@ body{
 
 .bloc-mid{          /*BLOC-MID*/
     display: flex;
+    gap: 20px;
 }
 
 
 
                     /*LEFT-BOX*/
+.title-left-box{
+    margin: 0;
+    padding-bottom: 38px;
+}
 .header-bloc-mid{
-    
     font-family: 'Raleway';
 }
 .left-box-grey{          
@@ -245,6 +249,7 @@ body{
     padding: 5px;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
     margin-bottom: 40px;
+    text-decoration: none;
 }
 .frame-left:hover{
     transform: scale(1.015);
@@ -253,6 +258,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 10px;
+}
+.img-left-link{
+    margin: 0;
+}
+.title-picture-hosting{
+    margin: 0;
+    color: black;
 }
 .img-left-box{
     width: 100%;
@@ -271,6 +284,7 @@ body{
     margin: 0px;
     padding: 5px 0px 0px 10px;
     font-size: 14px;
+    color: black;
 }
 strong{
     font-family: 'Raleway';
@@ -367,12 +381,15 @@ strong{
 .img-activity{
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 .article-activity-1{
     width: 300px;
     min-width: 300px;
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
+    text-decoration: none;
+    color: black;
 }
 .article-activity-1:hover,.article-activity-2:hover,.article-activity-3:hover,.article-activity-4:hover,.article-activity-5:hover,.article-activity-6:hover{
     transform: scale(1.015);
@@ -392,6 +409,7 @@ strong{
 .activity-link{
     text-decoration: none;
     color: inherit;
+    margin: 0;
 }
                     /*PHOTO2*/
 #group-activity-img-2-3{
@@ -401,10 +419,12 @@ strong{
     gap: 1rem;
 }
 .article-activity-2{
-    width: 300px;
+    width: 100%;
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .img-activity-2{
     height: 180px;
@@ -421,10 +441,12 @@ strong{
 
                     /*PHOTO3*/
 .article-activity-3{
-    width: 300px;
+    width: 100%;
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .img-activity-3{
     height: 120px;
@@ -449,6 +471,8 @@ strong{
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .img-activity-4{
     height: 400px;
@@ -478,6 +502,8 @@ strong{
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .img-activity-5{
     height: 120px;
@@ -496,6 +522,8 @@ strong{
     border-radius: 2rem;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 .img-activity-6{
     height: 180px;
@@ -518,7 +546,6 @@ strong{
 
 .bloc-footer{
     margin-top: 50px;
-    display: flex;
     background: #F2F2F2;
     padding: 20px 0 40px 0;
 }
@@ -529,8 +556,10 @@ strong{
     list-style-type: none;
     margin: 0 0 10px -40px;
 }
+.box-footer-container{
+    display: flex;
+}
 .box-footer-1{
-    margin-left: 40px;
     width: 30%;
 }
 .box-footer-2{
@@ -704,14 +733,12 @@ strong{
 
 
     /*FOOTER*/
-    .bloc-footer{
+    .box-footer-container{
         display: block;
+        padding: 0 0 0 20px;
     }
     .box-footer-1, .box-footer-2, .box-footer-3{
         width: 62%;
-    }
-    .box-footer-2, .box-footer-3{
-        margin-left: 40px;
     }
     .box-footer-1, .box-footer-2{
         margin-bottom: 30px;
