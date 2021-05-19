@@ -36,7 +36,6 @@ body{
 .headerNavLink{
     text-decoration: none;
     color: inherit;
-    font-weight: bold;
 }
 .headerNavLink[data-active=true]{
     position: relative;
@@ -417,6 +416,7 @@ strong{
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
+    max-width: 346px;
 }
 .article-activity-2{
     width: 100%;
@@ -594,6 +594,9 @@ strong{
     
     .bloc-img-activity-left{
         margin: 0 0 30px 0;
+    }
+    #group-activity-img-2-3{
+        max-width: 410%;
     }
 }
 
