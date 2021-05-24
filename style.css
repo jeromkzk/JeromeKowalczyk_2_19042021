@@ -387,6 +387,7 @@ strong{
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.288);
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 .article-activity-1:hover, .article-activity-2:hover, .article-activity-3:hover, .article-activity-4:hover, .article-activity-5:hover, .article-activity-6:hover{
     transform: scale(1.015);
@@ -415,6 +416,7 @@ strong{
     justify-content: space-between;
     gap: 1rem;
     max-width: 346px;
+    width: 100%;
 }
 .article-activity-2{
     width: 100%;
@@ -460,6 +462,7 @@ strong{
 .bloc-img-activity-left{
     display: flex;
     gap: 3.2rem;
+    width: 50%;
 }
 
 /*PHOTO 4*/
@@ -471,6 +474,7 @@ strong{
     cursor: pointer;
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 .img-activity-4{
     height: 400px;
