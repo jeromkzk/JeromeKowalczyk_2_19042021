@@ -588,7 +588,7 @@ strong{
     }
     
     .article-activity-1, .article-activity-4{
-        min-width: 50%;
+        min-width: 44%;
         width: 50%;
     }
     
@@ -624,6 +624,7 @@ strong{
         display: block;
         width: 100%;
     }
+    
     .left-box-grey{
         max-width: none;
         border-radius: 0;
