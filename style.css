@@ -586,15 +586,18 @@ strong{
     .article-activity-1, .article-activity-2, .article-activity-3, .article-activity-5, .article-activity-6{
         width: 100%;
     }
-    .article-activity-4{
-        width: 90%;
+    
+    .article-activity-1, .article-activity-4{
+        min-width: 50%;
+        width: 50%;
     }
     
     .bloc-img-activity-left{
         margin: 0 0 30px 0;
+        width: auto;
     }
-    #group-activity-img-2-3{
-        max-width: 410%;
+    #group-activity-img-2-3, #group-activity-img-5-6{
+        min-width: 50%;
     }
 }
 
@@ -725,6 +728,7 @@ strong{
     }
     #group-activity-img-2-3,#group-activity-img-5-6{
         gap: 0;
+        min-width: 100%;
     }
     
 
